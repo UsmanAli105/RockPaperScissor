@@ -9,13 +9,9 @@ FONT = pygame.font.Font(None, 36)
 running = True
 clock = pygame.time.Clock()
 
-
-
 rock_players = [player_object('rock') for _ in range(n_player)]
 paper_players = [player_object('paper') for _ in range(n_player)]
 scissor_players = [player_object('scissor') for _ in range(n_player)]
-
-
 
 flag = True
 
