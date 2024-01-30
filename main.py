@@ -59,9 +59,6 @@ while running:
         kill(collision_matrix_3, scissor_players, 'rock')
 
 
-
-
-
     pygame.display.flip()
 
 pygame.quit()
